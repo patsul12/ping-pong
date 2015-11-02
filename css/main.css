@@ -29,6 +29,10 @@ body {
 	color: #f0f0f0;
 }
 
+#ping-pong {
+	padding-top: 10px;
+}
+
 #ping-pong-container {
 	padding-top: 20px;
 }
