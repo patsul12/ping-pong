@@ -1,0 +1,39 @@
+body {
+	background-color: #f0f0f0;
+}
+
+.col-xs-4 {
+	padding-bottom: 100%;
+	margin-bottom: -100%;
+}
+
+#title-header {
+	text-align: center;
+	background-color: rgb(255,235,146);
+	padding: 40px;
+}
+
+#title-header h1 {
+	font-size: 50px;
+}
+
+#side-bar {
+	background-color: rgb(140,174,104);
+}
+
+#side-bar h4 {
+	color: rgb(255,235,146);
+}
+
+#side-bar p {
+	color: #f0f0f0;
+}
+
+#ping-pong-container {
+	padding-top: 20px;
+}
+
+.output {
+	padding-top: 10px;
+	text-align: left;
+}

@@ -3,41 +3,52 @@
 <html>
 <head>
 	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/main.css" rel="stylesheet">
 	<script src="js/jquery-2.1.4.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
+
 </head>
 <body>
-	<div class="title-header">
-		<h1>Ping-Pong</h1>
-	</div>
-	<div class="side-bar">
-		<h2>About Ping Pong</h2>
-		<h4 class="sub-header">Created by:</h4>
-		<p>Patrick Sullivan</p>
-		<h4 class="sub-header">Github Username/URL</h4>
-		<a href="https://github.com/patsul12">patsul12</a>
-		<h4 class="sub-header">Level 2 Test for:</h4>
-		<p>Java</p>
-	</div>
-	<div class="ping-pong-contaner">
-		<h2>Let's play!</h2>
-		<h4>Rules:</h4>
-		<p>
-			Ping Pong will count up to your number from 1 with the following exceptions:
-			<ol>
-				<li>Numbers divisible by 3 become "ping"</li>
-				<li>Numbers divisible by 5 become "pong"</li>
-				<li>Numbers divisible by 3 and 5 become "pingpong"</li>
-			</ol>
-		</p>
-		<form>
-			<label>Enter your number here:</label>
-			<input type="text" placeholder="enter a value"></input>
-			<button type="submit">Ping Pong!</button>
-		</form>
-		<div class="output">
+	<div class="container-fluid">
+		<div class="row">
+			<div id="title-header" class="col-xs-12">
+				<h1>Ping-Pong</h1>
+			</div>
+		</div>
+		<div id="ping-pong-container" class="row">
+			<div id="side-bar" class="col-xs-4">
+				<h2>About Ping Pong</h2>
+				<h4 class="sub-header">Created by:</h4>
+				<p>Patrick Sullivan</p>
+				<h4 class="sub-header">Github Username/URL:</h4>
+				<a href="https://github.com/patsul12">patsul12</a>
+				<h4 class="sub-header">Level 2 Test for:</h4>
+				<p>Java</p>
+			</div>
+			<div class="col-xs-8">
+				<h2>Let's play!</h2>
+				<h4>Rules:</h4>
+				<p>
+					Ping Pong will count up to your number from 1 with the following exceptions:
+					<ol>
+						<li>Numbers divisible by 3 become "ping"</li>
+						<li>Numbers divisible by 5 become "pong"</li>
+						<li>Numbers divisible by 3 and 5 become "pingpong"</li>
+					</ol>
+				</p>
+				<form>
+					<label>Enter your number here:</label>
+					<input type="text" placeholder="enter a value"></input>
+					<button class="btn btn-primary" type="submit">Ping Pong!</button>
+				</form>
+				<div class="output">
+					<ul>
+						<li>1</li>
+						<li>2</li>
+					</ul>
+				</div>
+			</div>
 		</div>
 	</div>
-
 </body>
 </html>
