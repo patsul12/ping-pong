@@ -3,9 +3,12 @@ $(document).ready(function() {
 		$("ul#output").empty();
 		$number = $("input:text").val();
 		$output = "";
+
+		// spits out an default message if invalid input
 		if ( isNaN($number) ) {
 			$output += "<li>please enter a valid number.</li>";
 		}
+
 		for (i=1; i<=$number; i++) {
 			$output += "<li>" + pingPong(i) + "</li>";
 		}

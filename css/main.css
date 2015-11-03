@@ -37,7 +37,9 @@ body {
 	padding-top: 20px;
 }
 
-.output {
+#output {
 	padding-top: 10px;
 	text-align: left;
+	overflow: auto;
+	height: 600px;
 }
