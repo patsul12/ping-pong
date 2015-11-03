@@ -11,11 +11,11 @@ describe('pingPong', function() {
 		expect(pingPong(15)).to.equal("pingpong");
 	});
 
-	it("returns input number for numbers not divisible by 3 or 5", function() {
+	it("returns input number for numbers not divisible by 3 or 5 #1", function() {
 		expect(pingPong(2)).to.equal(2);
 	});
 
-	it("rejects input that is not a number", function() {
-		expect(pingPong("reject")).to.equal();
+	it("returns input number for numbers not divisible by 3 or 5 #2", function() {
+		expect(pingPong(112)).to.equal(112);
 	});
 });
