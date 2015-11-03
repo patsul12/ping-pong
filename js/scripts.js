@@ -1,11 +1,20 @@
+$(document).ready(function() {
+	$("button#submit").click(function() {
+		$("ul#output").empty();
+		$number = $("input:text").val();
+		$output = pingPong($number)
+		$("ul#output").prepend($output);
+	});
+});
+
 function pingPong(num) {
-	if ( num % 3 === 0 && num % 5 === 0 ) {
-		return "pingpong";
-	} else if ( num % 3 === 0 ) {
-		return "ping";
-	} else if ( num % 5 === 0 ) {
-		return "pong";
-	} else {
-		return num;
+	output = "";
+	if ( isNaN(output) ) {
+		output += "<li>please enter a valid number.</li>";
+		return output;
 	}
+	for( i=0; i<=num; i++) {
+		output += "<li>" + i + "</li>";
+	}
+	return output;
 }
