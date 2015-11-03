@@ -17,7 +17,7 @@ Installation
 
 Install ping-pong by cloning this repository:
 
-    https://github.com/sampleRepo/ping-pong
+    https://github.com/patsul12/ping-pong
 
 License
 -------
